@@ -1,0 +1,23 @@
+@keyframes anim{
+    0% {background-color: #1a1922;} 
+   25% {background-color: #2a5c4b;} 
+   50% {background-color: #295c74;} 
+   75% {background-color: #2f7479;}
+  100% {background-color: #3f93ac;}
+}
+body {
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+}
+
+section {
+    margin: 25px;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
